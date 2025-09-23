@@ -1,6 +1,6 @@
 /* 
-Q2: Write a program to input two numbers and display their sum, difference, product, and quotient.
 
+Q2: Write a program to input two numbers and display their sum, difference, product, and quotient
 
 Sample Test Cases:
 Input 1:
@@ -14,6 +14,7 @@ Output 2:
 Sum=10, Diff=4, Product=21, Quotient=2
 
 */
+
 #include<stdio.h>
 int main()
 {
