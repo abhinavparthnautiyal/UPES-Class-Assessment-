@@ -13,6 +13,7 @@ Input 2:
 Output 2:
 Not Armstrong
 
+
 */
 #include<stdio.h>
 #include<math.h>
