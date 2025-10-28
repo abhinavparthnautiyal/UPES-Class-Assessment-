@@ -17,23 +17,20 @@ Output 2:
 
 void main() 
 {
-    int num1, num2;
-
-    printf("Enter two integers: ");
+    int num1, num2, temp, a, b;
+    
+    printf("Enter two numbers: ");
     scanf("%d %d", &num1, &num2);
 
-    int hcf = findHCF(num1, num2);
-    printf("HCF (GCD) of %d and %d is %d\n", num1, num2, hcf);
-}
-
-int findHCF(int a, int b) 
-{
-    while (b!=0) 
+    a=num1;
+    b=num2;
+    
+    while (b != 0) 
     {
-        int temp = b; 
+        temp = b;
         b = a % b;
         a = temp;
     }
-    return a;
+    
+    printf("HCF = %d\n", a);
 }
-
