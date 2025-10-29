@@ -16,9 +16,9 @@ decimaltobinary(int decimal)
         rem = decimal % 2;
         rev += rem * i;
         i *= 10;
-        decimal = decimal / 2;
+        decimal /= 2;
     }
-    int j=0;
+    int j=1;
     while (rev > 0)
     {
         rem = rev%10;
