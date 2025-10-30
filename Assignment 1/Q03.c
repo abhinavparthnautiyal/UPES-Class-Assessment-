@@ -10,3 +10,13 @@ void main()
     scanf("%d", &age);
     printf("\nYour name is %s and you are %d years old.\n", name, age);
 }
+
+
+
+
+
+
+
+
+
+
