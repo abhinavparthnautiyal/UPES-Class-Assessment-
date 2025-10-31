@@ -14,4 +14,4 @@ void main()
         printf("The points are collinear.\n");
     else
         printf("The points are not collinear.\n");
-}
+}                                                      
