@@ -8,7 +8,7 @@ void main()
     gets(name); 
     printf("Enter your age: ");
     scanf("%d", &age);
-    printf("\nYour name is %s and you are %d years old.\n", name, age);
+    printf("Your name is %s and you are %d years old.\n", name, age);
 }
 
 
